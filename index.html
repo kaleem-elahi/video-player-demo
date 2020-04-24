@@ -1,0 +1,36 @@
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+<script src="https://vjs.zencdn.net/6.2.5/video.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.0/annyang.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="https://vjs.zencdn.net/6.2.5/video-js.css"> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vjs-video/0.1.10/vjs-video.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/@videojs/themes@1/dist/city/index.css"> 
+
+
+
+<link rel="stylesheet" type="text/css" href="./theme.css"> 
+<script src="./script.js"></script>
+
+</head>
+<body>
+  <div ng-controller="myCtrl" ng-app="myApp">
+    
+    <video id='vid' controls class="video-js "  vjs-video data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }' poster="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg"> 
+      <source src="http://d2bqeap5aduv6p.cloudfront.net/project_coderush_640x360_521kbs_56min.mp4" type="video/mp4">
+      </video>
+      {{command}}
+      
+      
+      
+      Voice commands: Say "Play" & "Pause"!
+    </div>
+  </body>
+    
+
+
+
+
